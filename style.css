@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+html{
+    display: table;
+    margin: auto;
+}
+body{
+    background-color:#f9f9f9;
+    color:#4f4f4f;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:14px;
+}
+#root{
+    width:1125px;
+    border:1px;
+    border-color: #e0e0e0;
+    padding:0px;
+    background-color: white;
+}
+#header{
+    width:1125px;
+    height:300px;
+    margin:0px;
+    padding:0px;
+    background-image: url("omg.png")
+}
+#footer{
+    clear:both;
+    color:#808080;
+    width:1125px;
+    margin:0px;
+    padding:20px;
+    background-color: #efefef;
+    text-align:center
+}
+#comment{
+    float: right;
+    width:300px;
+    height:1300px;
+    margin:0px;
+    padding:20px;
+    background-color: #efefef;
+    font-size: smaller;
+}
+#content{
+    width:720px;
+    margin:0px;
+    padding:20px;
+    background-color:white;
+    float:left;
+}
+h1{
+    color:#333333;
+    font-size: 32px;
+    padding:20px 0px 20px 0px;
+}
+#content img{
+    width:500px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px 0px 20px 0px;
+}
+h2{
+    font-size: 24px;
+    color:#f15d22 ;
+    padding:20px 0px 20px 0px;
+}
+#main{
+    width:1125px;
+    padding:0px;
+    
+}
+a:hover{
+    color:#a0a0a0;
+}
+a{
+    color:#f15d22;
+    font-weight: bold;
+}
+
+.comment{
+    width:260px;
+    padding:10px;
+    border:1px;
+    border-color: black;
+    background-color: white;
+    margin:10px;
+}
